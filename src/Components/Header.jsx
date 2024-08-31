@@ -12,7 +12,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center p-0 w-full">
             <Link to='/'>
-              <h2 className='md:text-5xl text-2xl gap-3 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent drop-shadow font-bold '>AP</h2>
+              <h2 className='md:text-5xl text-2xl gap-3 bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent drop-shadow font-bold '>GP</h2>
             </Link>
             <div className=" w-full">
               <ul className="flex justify-end space-x-4 md:space-x-6">

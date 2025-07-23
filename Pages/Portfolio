@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
-import Navigation from '../components/portfolio/Navigation';
-import HeroSection from '../components/portfolio/HeroSection';
-import AboutSection from '../components/portfolio/AboutSection';
-import SkillsSection from '../components/portfolio/SkillsSection';
-import ExperienceSection from '../components/portfolio/ExperienceSection';
-import ProjectsSection from '../components/portfolio/ProjectsSection';
-import PublicationsSection from '../components/portfolio/PublicationsSection';
-import ContactSection from '../components/portfolio/ContactSection';
-import Footer from '../components/portfolio/Footer';
-import ThemeSwitcher from '../components/portfolio/ThemeSwitcher';
+import Navigation from '../Components/portfolio/Navigation';
+import HeroSection from '../Components/portfolio/HeroSection';
+import AboutSection from '../Components/portfolio/AboutSection';
+import SkillsSection from '../Components/portfolio/SkillsSection';
+import ExperienceSection from '../Components/portfolio/ExperienceSection';
+import ProjectsSection from '../Components/portfolio/ProjectsSection';
+import PublicationsSection from '../Components/portfolio/PublicationsSection';
+import ContactSection from '../Components/portfolio/ContactSection';
+import Footer from '../Components/portfolio/Footer';
+import ThemeSwitcher from '../Components/portfolio/ThemeSwitcher';
 
 export default function Portfolio() {
     const [theme, setTheme] = useState('dark');
